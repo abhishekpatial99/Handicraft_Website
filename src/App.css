@@ -1,0 +1,1329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 50px;
+    background-color: lightpink;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+.logo a:hover{
+    color: black;
+}
+
+.wrapper1 ul{
+   display: inline-flex;
+   list-style: none;
+   
+}
+.wrapper1 li a{
+    color: white;
+    color: white;
+    padding-left: 40px; 
+    font-weight: 500;
+    text-decoration: none;
+}
+.wrapper1 a:hover{
+    color: black;
+}
+.sub-menu{
+    display:none;
+}
+.wrapper1 li:hover .sub-menu{
+display: block;
+position: absolute;
+background-color: lightpink;
+margin-top: 5px;
+margin-left: -15px;
+}
+.wrapper1 li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.wrapper1 li:hover .sub-menu ul li{
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    border-radius: 0;
+    text-align: left;
+}
+.wrapper1 li:hover .sub-menu ul li a:hover{
+   color: black;
+}
+.sub-menu1{
+    display: none;
+}
+.hover:hover .sub-menu1{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 100px;
+    background-color:lightpink;
+}
+
+.item-no{
+    margin-right: -100px;
+}
+.item-no p{
+    display: inline-block;
+     padding: 0px 10px ;
+    }
+    .item-no input{
+        padding: 5px;
+        margin-right: -70px;
+        border-radius: 10px;
+        border-color: transparent;
+    }
+.item-yes{
+    font-weight: 800;
+    background-color:white;
+    padding: 5px 15px;
+    border-color: transparent;
+}
+.item-yes:hover{
+    background-color: black;
+    color: white;
+}
+.content{
+    background-image: url(../src/Img/myrlene-numa-SnITZTTeJVE-unsplash.jpg);
+    background-size: cover;
+    position: relative;  
+}
+
+.content:before{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.854);
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    color: lightpink;
+    font-weight: 700;
+    
+}
+.content1 span{
+    color: black;
+}
+.content2{
+padding-top: 250px;
+}
+.content2 h1{
+    display: flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+.content2 a{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+ .content2 button{
+    margin: 30px;
+    padding: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+    background: transparent;
+    border-color: whitesmoke;
+    color: black;
+
+ }
+ .content2 button:hover{
+    color: white;
+    background-color: lightpink;
+ }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        height: 300px;
+        margin: 50px 20px;
+    }
+    .style{
+        font-weight: 500;
+        text-decoration: none;
+        background-image: url(./Img/pxfuel\ \(3\).jpg);
+        background-size: cover;
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+
+    }
+    .style:hover{
+        transform: scale(1.1);
+    }
+    .style button{
+        margin-top: 30px;
+        font-weight: 500;
+        padding: 10px; 
+        border-color: transparent;
+        background-color: black;
+        color: white;
+    }
+    .style button:hover{
+        background-color: white;
+        color: black;
+    }
+    .style p{
+        margin-top: 30px;
+    }
+    .brand{
+        font-weight: 500;
+        background-image: url(./Img/pxfuel\ \(4\).jpg);
+        background-size: cover;
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+    }
+  .brand:hover{
+    transform: scale(1.1);
+}  
+    .brand button{
+        margin-top: 30px;
+        font-weight: 500;
+        padding: 10px;
+        border-color: transparent;
+        background-color: black;
+        color: white;
+    }
+    .brand button:hover{
+        background-color: white;
+    color: black;
+    }
+    .brand p{
+        margin-top: 30px;
+    }
+    .design{
+    font-weight: 500;
+    background-image: url(./Img/pxfuel\ \(4\).jpg);
+    background-size:cover;
+   padding: 10px;
+   border-radius: 10px;
+   color: black;
+}
+.design:hover{
+    transform: scale(1.1);
+}
+.design button{
+    margin-top: 30px;
+    font-weight: 500;
+    padding: 10px;
+    background-color: black;
+        border-color: transparent;
+        color: white;
+}
+.design button:hover{
+    background-color: white;
+    color: black;
+}
+.design p{
+    margin-top: 30px;
+}
+.fashion{
+font-weight: 500;
+        background-image: url(./Img/pxfuel\ \(3\).jpg);
+        background-size: cover;
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+        position: relative;
+    }  
+.fashion:hover{
+            transform: scale(1.1);
+        }
+.fashion button{
+    margin-top: 30px;
+    font-weight: 500;
+    padding: 10px;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}        
+.fashion button:hover{
+    background-color: white;
+    color: black;
+}
+.fashion p{
+    margin-top: 30px;
+}
+.container1{
+    background-attachment: fixed;
+    background-image: url(./Img/img99.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    
+}
+.cont{
+    font-weight: 500;
+    color: white;
+}
+.cont h1{
+    margin: 30px 0px 0px 70px;
+}
+.cont button{
+    margin: 440px 320px;
+    font-weight: 500;
+    padding: 20px;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+}
+.cont button:hover{
+    background-color: black;
+    color: white;
+
+}
+.make{
+    font-weight: 400;
+    background-size: cover;
+    color: black;
+}
+.make h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.make h2{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 20px;
+}
+.make2{
+    display: flex;
+    justify-content: space-between;
+    margin:50px ;  
+}
+.make2 p{
+padding: 0px 0px 40px;
+}
+.lorem{
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px;  
+}
+.abhishek{
+    background-image: url(./Img/brooke-lark-cqOZcjOOmRw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 590px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.abhishek h1{
+    display: flex;
+    justify-content: center;
+}
+.abhi1{
+     padding-top: 60px;
+}
+
+.create{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.create1{
+    background-color:lightpink;
+    margin-left: 10px;
+    padding: 80px 400px 60px 40px;
+    border-radius: 40px;
+    color: white;
+}
+.create1:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.create1 button{
+margin-top: 100px;
+padding: 20px 30px;
+background-color: transparent;
+border-color: whitesmoke;
+font-weight: 500;
+color: whitesmoke;
+
+}
+.create button:hover{
+    background-color: black;
+    color: whitesmoke;
+   
+}
+.create2 p{
+    color: black;
+    font-weight: 600
+}
+.attch{
+    background-attachment: fixed;
+    background-image: url(./Img/brooke-lark-cqOZcjOOmRw-unsplash.jpg);
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+}
+.table1{
+    border: 2px solid;  
+}
+.table1 th{
+    background-color: black;
+    color: white;
+    padding: 20px 20px 30px 20px;
+}
+.table1 td{
+    padding:20px 30px 10px;
+}
+
+.submit{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(255, 135, 153);
+padding: 10px;
+
+}
+.nav2 input{
+    float: right;
+    margin-top: 5px;
+    padding :10px;
+    border-radius: 10px;
+    border: transparent;
+}
+.nav2 input:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+    .colorbg{
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       height: 500px;
+       
+
+    }
+    .colorbg1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+    .colorbg1 label{
+        padding: 20px;
+        
+        
+    }
+    .iuh{
+        margin-top: 200px;
+    }
+    .colorbg2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px; 
+        background-color: aliceblue;
+        margin-top: 50px;
+    }
+    .colorbg12{
+        margin-top: 50px;
+    }
+    
+.colers button{
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+}
+.clients{
+    background-image: url(./Img/pexels-andrea-piacquadio-3758169.jpg);
+    background-attachment: fixed;
+    background-color: rgba(0, 255, 255, 0.455);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 600px;
+}
+.clients h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 50px 0px;
+}
+.client1{
+    display: flex;   
+   justify-content: space-around;
+}
+.client2 h3{
+    margin-top: 100px;
+}
+.aboutshop{
+    background-color: rgb(199, 199, 199);
+    margin: 30px;
+    height: 600px;
+    padding-top: 60px;
+    padding: 20px;
+}
+.aboutshop h1{
+ margin-bottom: 30px;
+}
+.aboutshop p{
+text-align: justify;
+}
+.support{
+   display: inline;
+}
+.support h3{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px 20px;
+}
+.support span{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.limited h2{
+    text-align: center;
+    padding-top: 40px;
+}
+.limited{
+   background-color: rgb(228, 129, 149); 
+    background-position: center;
+    background-size:cover ;
+    height: 550px;
+    margin: 10px;
+}
+.special{
+    color: black;
+    margin-left: 50px;
+    gap: 50px;
+}
+.special h3{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.team{
+    margin-top: 40px;
+    text-align: center;
+}
+.team h1{
+    color:lightpink;
+}
+.teamm{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+   
+}
+.teamm img{
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+.teamm h3, h4 ,p{ 
+    text-align: center;
+}
+.teammm{
+  text-align: center;
+    margin-top: 50px;
+}
+.teammm img{
+   text-align: center;
+    margin-bottom: 30px;
+}
+.team3 h3,h4,p{
+    text-align: center;
+}
+
+.buy1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.buy2 {
+    display: flex;
+    justify-content: center;
+}
+.shopnow{
+    padding: 10px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+
+.foot{
+    position: relative;
+    background-color: lightpink;
+    background-size: cover;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px;
+    gap: 100px;
+}
+.footer1 a{
+display: block; 
+padding: 20px; 
+color: white;
+text-decoration: none;
+}
+.footer1 a:hover{
+color: black;
+}
+.footer2 p{
+    padding: 20px;
+}
+.footer2 p:hover{
+    color: black;
+}
+.footer3 p{
+    padding: 20px;
+}
+.social{
+display: inline;
+}
+.social1 h1  {
+ display: flex;
+ justify-content: center;
+}
+.social1 p{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 50px;
+}
+.social1 h4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.more{
+    margin-left: 190px;
+    margin-top: 10px;
+    color: rgb(5, 3, 3);
+}
+
+.hp{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 50px;
+    }
+.main{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+}
+.first{
+    height: 320px;
+    width: 300px;
+    background-image: url(../src/Img/pxfuel\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.first:hover{
+    transform: scale(1.1);
+}
+.first p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.first button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.first1{
+    height: 320px;
+    width: 300px;
+    background-image: url(../src/Img/pxfuel\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.first1:hover{
+    transform: scale(1.1);
+}
+.first1 p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.first1 button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.second{
+    height: 320px;
+    width: 300px;
+    background-image: url(../src/Img/pxfuel\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.second:hover{
+transform: scale(1.1);
+}
+.second p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.second button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.second1{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/pxfuel\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.second1:hover{
+    transform: scale(1.1);
+    }
+.second1 p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.second1 button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.main2{
+    display: flex;
+   justify-content: space-between;
+    margin: 10px;
+}
+.third{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/pexels-sanketh-rao-716107.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.third:hover{
+    transform: scale(1.1);
+    }
+.third p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.third button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.third1{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/pexels-tim-mossholder-668295.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.third1:hover{
+    transform: scale(1.1);
+    }
+.third1 p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.third1 button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.fourth{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/pexels-tim-mossholder-668295.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fourth:hover{
+    transform: scale(1.1);
+    }
+.fourth p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.fourth button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.fourth1{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/pexels-sanketh-rao-716107.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fourth1:hover{
+    transform: scale(1.1);
+}
+.fourth1 p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.fourth1 button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.main3{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.fifth{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/matthieu-comoy-koo_vYrlU_U-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fifth:hover{
+    transform: scale(1.1);
+}
+.fifth p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.fifth button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.fifth1{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/tanaphong-toochinda-WddCult7llk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fifth1:hover{
+    transform: scale(1.1);
+}
+.fifth1 p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.fifth1 button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.sixth{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/tanaphong-toochinda-WddCult7llk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sixth:hover{
+    transform: scale(1.1);
+}
+.sixth p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.sixth button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.sixth1{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/matthieu-comoy-koo_vYrlU_U-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sixth1:hover{
+    transform: scale(1.1);
+}
+.sixth1 p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.sixth1 button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.main4{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.seventh{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/eve-maier-PRYDwbqEzl8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.seventh:hover{
+    transform: scale(1.1);
+}
+.seventh p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.seventh button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.seventh1{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/matthieu-comoy-koo_vYrlU_U-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.seventh1:hover{
+    transform: scale(1.1);
+}
+.seventh1 p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.seventh1 button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.eight{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/matthieu-comoy-koo_vYrlU_U-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.eight:hover{
+    transform: scale(1.1);
+}
+.eight p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.eight button{
+    margin-left: 210px;
+    padding: 5px;
+}
+.eight1{
+    height: 320px;
+    width: 300px;
+    background-image: url(./Img/eve-maier-PRYDwbqEzl8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.eight1:hover{
+    transform: scale(1.1);
+}
+.eight1 p{
+    margin: 200px 10px 10px 10px;
+    color: whitesmoke;
+}
+.eight1 button{
+    margin-left: 210px;
+    padding: 5px;
+}
+header{
+
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+.mainlog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    background-image: url(./Img/myrlene-numa-SnITZTTeJVE-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+.logo2{
+    font-size: 2em;
+    color: white;
+    user-select: none;
+}
+.logo2 span{
+    color: black;
+
+}
+.ser{
+    margin-top: 150px;
+    text-align: center;
+}
+.ser2{
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.ser2 video{
+    height: 400px;
+    width: 40%;
+    margin: 50px;   
+}
+.ser3{
+    display: flex;
+   justify-content: center;
+   margin-top: -100px;
+}
+.ser3 video{
+    height: 400px;
+    width: 40%;
+    margin: 50px;  
+   
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.navigation a{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+.navigation a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transform-origin: right;
+    transform:scaleX(0);
+transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.btnlogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: black;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 100px;
+    padding-right: 160px;
+    transition: -5s;
+
+}
+.btnlogin-popup:hover{
+    background-color:white;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background-color:lightpink;
+    background-size: cover;
+    border:2px solid bisque;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba( 0, 0, 0 ,-5 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+
+}
+.form-box h2{
+    font-size: 2em;
+    color:black;
+    text-align: center;
+    margin-top: -50px;
+    padding: 30px;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #d8e9f7e7;
+    margin: 30px 0;
+}
+.input-box label{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: black;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+    position: absolute;
+    font-size: 1.2em;
+    line-height: 57px;
+    
+}
+.btn {
+    width: 100%;
+    height: 45px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+.login-reg{
+color: black;
+font-size: 500;
+margin: 25px;
+}
+.login-reg a{
+    text-decoration: none;
+    color: blue;
+}
+
+.abot{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    position: static;
+}
+
+ .about1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+ }
+ .about1 img{
+  border-radius: 50%;
+ }
+ .about14{
+display:flex;
+justify-content: space-around;
+margin-top: 250px;
+ }
+ .about14 img{
+    border-radius: 50%;
+ }
+
+.contact2 input{
+   display: block;
+   margin: 30px;
+   padding: 10px;
+   width: 85%;
+    
+}
+.contact2 button{
+    margin:  0px 0px 10px 60px;
+    padding: 10px;
+    background-color: rgb(253, 160, 160);
+    border-radius: 20px;
+    border-color: transparent;
+    width: 80%;
+    
+}
+.contact2{
+    border: solid;
+    background-color:rgba(254, 254, 254, 0.622);
+    width: 45%;
+    height: 450px;
+    margin-bottom: 10px;
+    
+}
+
+.chan234{
+    margin-top: 100px;
+}
+.reg23 a{
+text-decoration: none;
+margin-right: 200px;
+}
+.contact1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.all{
+    background-image: url(../src/Img/myrlene-numa-SnITZTTeJVE-unsplash.jpg);
+    background-size: cover;
+    position: relative;   
+}
+.all1{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+
+}
+.conatct3 h3 {
+margin-bottom: 10px;
+}
+.conatct3 p{
+    margin-bottom: 10px;
+}
+.footer-logo{
+color: white;}
+
+.foot23{
+    background-color: black;
+    color: white;
+}
+.reg34{
+    margin-top: 100px;
+}
+.foot23 a{
+    text-decoration: none;
+    color: white;
+}
+.foot23 a:hover{
+    color: rgb(113, 31, 104);
+}
+.foot23 h2{
+    margin: 80px 10px 0px 10px;
+    gap: 30px;
+}
+.foot23 img{
+    margin: 80px 10px 0px 10px;
+}
+.main20{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.butt12{
+    margin-top: 280px;
+    margin-left: 100px;
+}
+.butt12 button{
+    padding: 10px 30px;
+    background-color: rgb(245, 245, 18);
+    border-radius: 20px;
+    border-color: transparent;
+}
+.butt12 a{
+text-decoration: none;
+color: white;
+}
+.button13{
+    margin-top: 350px;
+    margin-left: -130px;
+}
+.button13 a{
+text-decoration: none;
+color: white;
+}
+.button13 button{
+    padding: 10px 50px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 20px;
+    border-color: transparent;
+}
+.details{
+    display: flex;
+    gap: 100px;
+}
+.ind{
+    margin-top: 20px;
+}
+.picture img{
+    margin-left: 330px;
+    width: 50%;
+    height: 300px;
+}
+.picture h3{
+    background-color: rgb(252, 151, 166);
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 40px;
+    padding: 10px 20px;
+    color: whitesmoke;
+}
+.picture p{
+    margin-left: 330px;
+}
+.info{
+    margin-left: 580px;
+}
+.chec{
+    background-color:beige;
+    height: 1000px;
+}
+.paymt2{
+    margin: 10px;
+    padding: 30px;
+    height: 800px;
+    
+}
+.paymt2 a{
+color: black;
+text-decoration: none;
+}
+.paymi2{
+    margin-top: 60px;
+}
+.paymt2 a:hover{
+    color: pink
+}
+.goo{
+    background-color: green;
+    padding: 20px;
+}
+.paymt21{
+    margin-top: 70px;
+}
+.backside{
+    background-color: lightseagreen;
+    height: 650px;
+  }
+  .dash a{
+   text-decoration: none;
+   background-color: rgb(204, 206, 209);
+   color: whitesmoke;
+  }
+.iii a{
+    color: black;
+    padding:20px;
+}
+.satet{
+    
+    color: white;
+    width:50%;
+    text-align: center;
+   margin: 300px 0px 0px 200px;
+
+}

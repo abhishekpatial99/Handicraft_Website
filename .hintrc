@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "meta[name=theme-color]"
+        ]
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-align: -webkit-match-parent",
+          "-webkit-tap-highlight-color",
+          "-webkit-text-size-adjust",
+          "scroll-behavior",
+          "text-decoration-skip-ink",
+          "backdrop-filter",
+          "user-select"
+        ]
+      }
+    ],
+    "css-prefix-order": "off"
+  }
+}
